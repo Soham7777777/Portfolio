@@ -1,0 +1,29 @@
+:root {
+    scroll-padding-top: 50px;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+
+    background-color: ghostwhite;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    cursor: pointer;
+}
+
+.break-word {
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+#hero {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f8f9fa;
+}
